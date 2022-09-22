@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  server:
+    image: ubuntu:22.04
+    volumes:
+      - /home/mwiku/Docker_Volumes/ubuntults:/home/shared
